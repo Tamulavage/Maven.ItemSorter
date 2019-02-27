@@ -11,6 +11,6 @@ public class NameComparator implements Comparator<Item> {
 
     public int compare(Item compareVal1, Item compareVal2) {
 
-        return compareVal1.getName().compareTo(compareVal2.getName()) ;
+        return compareVal1.getName().compareTo(compareVal2.getName());
     }
 }
