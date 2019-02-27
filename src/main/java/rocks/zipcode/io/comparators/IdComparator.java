@@ -10,7 +10,7 @@ import java.util.Comparator;
 public class IdComparator implements Comparator<Item> {
 
     public int compare(Item compareVal1, Item compareVal2) {
-        return (int) (compareVal1.getId() -compareVal2.getId()) ;
+        return (int) (compareVal1.getId() - compareVal2.getId());
 
     }
 

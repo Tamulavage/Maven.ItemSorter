@@ -25,7 +25,7 @@ public class ItemSorter {
 
         Collections.sort(this.items, comparator);
         Item[] retVal = new Item[this.items.size()];
-        for(int i = 0; i<this.items.size(); i++){
+        for (int i = 0; i < this.items.size(); i++) {
             retVal[i] = this.items.get(i);
 
         }
